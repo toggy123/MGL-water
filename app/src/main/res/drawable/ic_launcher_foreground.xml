@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Road cross section / embankment -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M24,42 L84,42 L78,54 L30,54 Z" />
+    <!-- Road surface stripe -->
+    <path
+        android:fillColor="#0B192C"
+        android:pathData="M27,44 L81,44 L79,48 L29,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,46 L48,46 L48,47 L42,47 Z M60,46 L66,46 L66,47 L60,47 Z" />
+    <!-- Concrete culvert structure (Box + Pipe) -->
+    <!-- Headwall/Wingwall -->
+    <path
+        android:fillColor="#E0E1DD"
+        android:pathData="M34,54 L74,54 L74,78 L34,78 Z" />
+    <!-- Culvert opening (Dark barrel) -->
+    <path
+        android:fillColor="#1B263B"
+        android:pathData="M41,58 L67,58 L67,75 L41,75 Z" />
+    <!-- Water stream passing through culvert -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M45,66 C50,64 58,68 63,66 L63,73 C58,75 50,71 45,73 Z" />
+    <!-- Stream outfall ripples -->
+    <path
+        android:pathData="M30,83 C45,79 63,85 78,81 M35,89 C48,86 60,91 73,88"
+        android:strokeWidth="3"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Engineering caliper/compass tick mark -->
+    <path
+        android:pathData="M54,26 L54,36 M50,30 L58,30"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD166"
+        android:strokeLineCap="round" />
+</vector>

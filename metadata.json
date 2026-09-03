@@ -1,0 +1,6 @@
+{
+  "name": "MON-DRAIN Engineer",
+  "description": "Mongolian road drainage, surface runoff, DEM terrain analysis, catchment delineation, and culvert sizing engineering app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
